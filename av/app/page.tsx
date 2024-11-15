@@ -22,13 +22,13 @@ function page() {
 
 <Col>  
 
-<KitchenSinkExample/>
+<KitchenSinkExample nav="BIM" nivis="Bir inşaatın bütün mimarisi..."/>
 
-<KitchenSinkExample/>
+<KitchenSinkExample nav="Mobilya Tasarımı"/>
 </Col>
 <Col>  
 
-<KitchenSinkExample/>
+<KitchenSinkExample nav ="İç Mimar"/>
 
 <KitchenSinkExample/>
 </Col>
