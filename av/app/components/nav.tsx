@@ -17,7 +17,7 @@ function BasicExample() {
           <Nav className="me-auto">
             <Nav.Link href="/">Anasayfa</Nav.Link>
             <Nav.Link href="/kurumsal">Kurumsal</Nav.Link>
-            <NavDropdown title="....." id="basic-nav-dropdown">
+            <NavDropdown title="Hizmetler" id="basic-nav-dropdown">
               <NavDropdown.Item href="/hizmetler/">Projeler</NavDropdown.Item>
               <NavDropdown.Item href="hizmetler/referans">
                 Referanslar
