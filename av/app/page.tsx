@@ -22,15 +22,15 @@ function page() {
 
 <Col>  
 
-<KitchenSinkExample nav="BIM" nivis="Bir inşaatın bütün mimarisi..."/>
+<KitchenSinkExample nav="BIM" wene="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl4-Z7virxzOINM_NlyqALK1BKgTxP74fGMg&usqp=CAU"  nivis="Bir inşaatın bütün mimarisi..."/>
 
 <KitchenSinkExample nav="Mobilya Tasarımı"/>
 </Col>
 <Col>  
 
-<KitchenSinkExample nav ="İç Mimar"/>
+<KitchenSinkExample nav ="İç Mimar-Dekorasyon"/>
 
-<KitchenSinkExample/>
+<KitchenSinkExample nav="Genel Yaklaşım"/>
 </Col>
 <Alert>
   
