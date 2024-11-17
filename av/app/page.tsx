@@ -6,6 +6,7 @@ import React from 'react'
 import { Container, Row ,Col,Alert} from 'react-bootstrap'
 import KitchenSinkExample from './components/card'
 
+import mmwene from '../public/mmr.jpg'
 function page() {
   return (
     <div>
@@ -14,23 +15,23 @@ function page() {
       <Container>
       <Alert>
   
-  <Alert></Alert>  
+  <Alert style={{background:"white"}}>Hayatınıza değer verin..</Alert>  
   
-  <Alert></Alert>  
+  <Alert style={{background:"white"}}>Demir mimari</Alert>  
     </Alert>  
 <Row>
 
 <Col>  
 
-<KitchenSinkExample nav="BIM" wene="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl4-Z7virxzOINM_NlyqALK1BKgTxP74fGMg&usqp=CAU"  nivis="Bir inşaatın bütün mimarisi..."/>
+<KitchenSinkExample nav="BIM" wene={mmwene}  nivis="Bir inşaatın bütün mimarisi..."/>
 
-<KitchenSinkExample nav="Mobilya Tasarımı"/>
+<KitchenSinkExample nav="Mobilya Tasarımı" wene={mmwene} />
 </Col>
 <Col>  
 
-<KitchenSinkExample nav ="İç Mimar-Dekorasyon"/>
+<KitchenSinkExample nav ="İç Mimar-Dekorasyon" wene={mmwene}/>
 
-<KitchenSinkExample nav="Genel Yaklaşım"/>
+<KitchenSinkExample nav="Genel Yaklaşım" wene={mmwene}/>
 </Col>
 <Alert>
   
@@ -52,9 +53,9 @@ function page() {
 </Col>
 <Alert>
   
-<Alert></Alert>  
+<Alert> Açıklama</Alert>  
 
-<Alert></Alert>  
+<Alert> mm ..Açıklama.....</Alert>  
   </Alert>  
 
 </Row>
