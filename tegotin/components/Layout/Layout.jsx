@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <title>Firdevs Kapısına Emekleyerek</title>
+        <title>Demir Mimari </title>
         <meta
           key="viewport"
           name="viewport"
@@ -15,16 +15,16 @@ const Layout = ({ children }) => {
         />
         <meta
           name="description"
-          content="Cihekî hûn ramanê xwe parve bikin.."
+          content="Mimari "
         />
         <meta property="og:title" content="Mücahid" />
         <meta
           property="og:description"
-          content="ilim talebi ve tebliğ..."
+          content="Mimari"
         />
         <meta
           property="og:image"
-          content="https://3.bp.blogspot.com/-GKnSpUd0yc8/VpHb0wjxBJI/AAAAAAAAA6M/C_dCx0Htyns/s1600/ahmede-xane-%25C5%259Fiirleri.jpg"
+          content=" "
         />
       </Head>
       <Nav />
