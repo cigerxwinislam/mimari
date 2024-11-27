@@ -66,20 +66,20 @@ const Poster = () => {
   return (
     <Wrapper>
       <div className={styles.root}>
-        <h5 className={styles.heading}>Yüce Kuran ve  sünnet-i senniye ışığında yazalım  📗 Dembaş 🌲</h5>
+        <h5 className={styles.heading}>  Demir Mimari tarafından yapılan bütün projeler burda yer almaktadır</h5>
         {loading ? (
           <LoadingDots>Amade dibe..</LoadingDots>
         ) : data?.user ? (
           <PosterInner user={data.user} />
         ) : (
           <Text color="secondary">
-            Jibo binivîsin {' '}
+            Talep ve görüşleriniz{' '}
             <Link href="/login" passHref>
               <TextLink color="link" variant="highlight">
-              tevlê   
+             için lütfen  
               </TextLink>
             </Link>{' '}
-           bibin. 
+           iletişime geçiniz.
           </Text>
         )}
       </div>
