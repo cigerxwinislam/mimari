@@ -18,7 +18,7 @@ const Footer = () => {
             Yekazad Software Center
           </TextLink>
           ê |..
-          <span> </span>Ji kerema xwe re tenê bi kurdî û dûrî neteweperwerîyê ye binivîsin...|
+          <span> </span>Demir Mimari ile hayat kalitenizi arttırın |
         </Text>
         <Spacer size={1} axis="vertical" />
         <ThemeSwitcher />
