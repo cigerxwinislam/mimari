@@ -30,7 +30,7 @@ const PostList = () => {
         ))}
         <Container justifyContent="center">
           {isReachingEnd ? (
-            <Text color="secondary">Başka yazı mevcut değil </Text>
+            <Text color="secondary">Başka proje mevcut değil henüz.</Text>
           ) : (
             <Button
               variant="ghost"
