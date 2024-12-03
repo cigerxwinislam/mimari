@@ -7,7 +7,7 @@ export const Feed = () => {
   return (
     <div className={styles.root}>
       <Spacer size={1} axis="vertical" />
-      
+      <Poster/>
       <PostList />
     </div>
   );
